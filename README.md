@@ -2,6 +2,8 @@
 
 ![CRAN](https://img.shields.io/badge/CRAN-1.2.0-brightgreen.svg)  ![Github](https://img.shields.io/badge/Github-1.2.1-green.svg) ![licence](https://img.shields.io/badge/Licence-GPL--3-blue.svg)
 
+A fork of Jean Romain's lidR package that will work with point clouds more generally, including point clouds not originating from lidar, such as those from Structure from Motion.
+
 R package for Airborne LiDAR Data Manipulation and Visualization for Forestry Applications
 
 The lidR package provides functions to read and write `.las` and `.laz` files, plot a point cloud, compute metrics using an area-based approach, compute digital canopy models, thin lidar data, manage a catalog of datasets, automatically extract ground inventories, process a set of tiles in multicore, individual tree segmentation, classify data from geographic data, and provides other tools to manipulate LiDAR data.
